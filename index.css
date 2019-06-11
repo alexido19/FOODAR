@@ -1,0 +1,199 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	display: block;
+    font-size: 15px;
+    font-family: 'Lemonada', cursive;
+    font-weight: normal;
+    overflow-x: hidden;
+    background-color: #e7e7e7;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+h3, h4, h5 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.ad-banner img {
+    width: 100%;
+    height: 20vh;
+}
+
+header {
+    display: block;
+    width: 100%;
+    background-color: aqua;
+   
+}
+
+section {
+    margin: 50px;
+}
+
+.feature-image  img {
+    width: 100%;
+    height: 70vh;
+    
+}
+
+.logo {
+    width: 50%;
+    float: left;
+    height: 50%;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.nav {
+    width: 50%;
+    float: right;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+
+.nav ul a {
+    text-decoration: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.nav ul a:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+.zipcode-class {
+    text-align: center;
+    font-size: 1.6rem;
+    clear: both;
+}
+
+footer {
+    bottom: 0;
+    background-color: #000;
+    color: #e7e7e7;
+    text-transform: uppercase;
+}
+
+.footer-container {
+    white-space:nowrap;
+    text-align:center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.box {
+    width: 30%;
+    display:inline-block;
+    border-radius:5px;
+}
+
+.feature-restaurants {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.feature-restaurants > div {
+    text-align: center;
+    
+}
+
+  .card {
+    width: 30%;
+    float: left;
+    text-align: center;
+  }
+
+  .card > p {
+     padding: 0;
+     margin: 0;
+  }
+
+  .card > img{
+      width: 60%;
+      height: 250px;
+      border-radius: 10px;
+  }
+
+  .clear {
+      clear: both;
+  }
+
+  .coupon {
+      display: none;
+      position: fixed;
+      z-index: 1;
+    left: 800px;;
+    top: 100px;
+    height: 50%;
+    width: 30%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .coupon1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+  left: 30px;;
+  top: 100px;
+  height: 50%;
+  width: 30%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.coupon2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+  left: 380px;
+  top: 100px;
+  height: 50%;
+  width: 30%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+.modal-content {
+      background-color: #f4f4f4;
+      margin: 20% auto;
+      padding: 20px;
+      width: 40%;
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content2 {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+  .modal-content3 {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }

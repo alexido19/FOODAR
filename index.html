@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+    <title>FOODAR LIFE!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="ad-banner">
+        <img src ='./banners/banner.png' id="img-banner" width="100%" height="90" alt="Banner">
+    </div>
+    <header class="page-header">
+        <div class="logo">
+            <img src="./img/Logo.PNG">
+        </div>
+        <nav class="nav">
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Sign-In|Register</li></a>
+                <a href="#"><li>About</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <div class="main-container">
+        <section class="feature-image">
+            <img src="./img/My Post.png" alt="">
+        </section>
+        <section class="feature-restaurants">
+            <div>
+                <h3>Featured Restaurants</h3>
+            </div>
+            <hr>
+            <div class="card" id="rest1">
+                <img src="./img/rest1.png" alt="Restaurants">
+                <h5>Bella's Inn</h5>
+                <p>At the Sit-in-Inn all four elements were happenning in equal measure</p>  
+                <p>the wine, the service, and the overall ambience.</p>   
+                <div class="coupon1" id="modal1">
+                    <div class="modal-content">
+                        <p>Get 15% of your first Meal</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="card" id="rest2">
+                <img src="./img/rest2.png" alt="Restaurants">
+                <h5>Diner's lounge</h5>
+                <p>At the Sit-in-Inn all four elements were happenning in equal measure</p>  
+                <p>the wine, the service, and the overall ambience.</p>
+                <div class="coupon2" id="modal2">
+                    <div class="modal-content2">
+                        <p>Get 15% of your first Meal</p>
+                    </div>
+                </div>          
+            </div>
+            <div class="card" id="rest3">
+                <img src="./img/rest3.png" alt="Restaurants">
+                <h5>Sailor's Lounge</h5> 
+                <p>At the Sit-in-Inn all four elements were happenning in equal measure</p>  
+                <p>the wine, the service, and the overall ambience.</p>  
+                <div class="coupon" id="modal">
+                    <div class="modal-content3">
+                        <p>Get 15% of your first Meal</p>
+                    </div>
+                </div>      
+            </div>
+        </section>
+        <div class="clear"></div>
+        <hr>
+        <div class="zipcode-class">
+            <h4>Find a driver near you!</h4>
+            <hr>
+            <p>Type in a zipcode below and click Go! to find a driver near you</p>
+            <form class="zip-input" id="zipcode-form" method="POST" action="">
+                <label for="zipcode">ZipCode</label>
+                <input type="number" id="zipcode" name="zipcode">
+                <input type="submit" value="Go!" onclick="checkZipCode()">
+            </form>
+            <p id="zip-result"></p>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<br>
+<footer>
+    <div class="footer-container">
+        <div class="site-nav box">
+            <h5>Site Navigation</h5>
+            <hr>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Regitser</li></a>
+                <a href="#"><li>How it all Works</li></a>
+            </ul>
+        </div>
+        <div class="legal box">
+            <h5>Legal</h5>
+            <hr>
+            <ul>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="contact box">
+            <h5>Contact Us</h5>
+            <hr>
+            <ul>
+                <li>F T I</li>
+                <li>Tel: 888-400-9000</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="copyright">
+                <p>&copy; 2019. All Rights Reserved</p>
+                <p>Version 1.0.0</p>
+            </div>
+</div>
+</footer>
+
+
+<script src="./js/foodar1.js"></script>
+</body>
+</html>

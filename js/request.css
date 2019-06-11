@@ -1,0 +1,117 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	display: block;
+    font-size: 15px;
+    font-family: 'Lemonada', cursive;
+    font-weight: normal;
+    line-height: 26px;
+    background-color: #e7e7e7;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+header {
+    display: block;
+    width: 100%;
+    background-color: aqua;
+   
+}
+
+
+
+.logo {
+    width: 50%;
+    float: left;
+    height: 50%;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.nav {
+    width: 50%;
+    float: right;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+
+.nav ul a {
+    text-decoration: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.nav ul a:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+.container {
+    padding: 50px;
+}
+
+.request-section {
+    padding: 30px;
+}
+
+.request-email {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.inputf > input {
+    padding: 8px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.restaurant-name > input {
+    padding: 8px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+
+
+.sradio {
+    margin: 0 auto;
+}
+
+.style-radio {
+    width: 25%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px #888888;
+    text-transform: uppercase;
+    height: 200px;
+
+}
+
+.total {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
