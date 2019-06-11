@@ -2,7 +2,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(./img/food1.jpg);
+    font-family: 'Lemonada', cursive;
     background-size: cover;
 }
 .container {
@@ -74,5 +74,33 @@ hr {
   }
 
 .copy-section {
+    text-align: center;
+}
+
+
+footer {
+    bottom: 0;
+    background-color: #000;
+    color: #e7e7e7;
+    text-transform: uppercase;
+}
+
+.footer-container {
+    white-space:nowrap;
+    text-align:center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.box {
+    width: 30%;
+    display:inline-block;
+    border-radius:5px;
+}
+
+.copyright {
     text-align: center;
 }
