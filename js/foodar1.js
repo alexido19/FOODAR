@@ -68,7 +68,7 @@ function removeModal() {
 }
 
 
-var img = document.getElementById('img-banner');
+var img = document.getElementById('ad-banner');
 
 var images = ['../banners/banner.png', '../banners/banner1.png','../banners/banner2.png'];
   
@@ -76,7 +76,7 @@ var images = ['../banners/banner.png', '../banners/banner1.png','../banners/bann
 var x = 0;
 
 function slide() {
-    if(x >  images.length) {
+    if(x  < images.length) {
         x++
     }else {
         x = 1;

@@ -16,7 +16,7 @@ h3, h4, h5 {
     font-size: 1.6rem;
 }
 
-.ad-banner img {
+.ad-banner >img {
     width: 100%;
     height: 20vh;
 }
